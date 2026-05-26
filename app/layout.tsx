@@ -16,6 +16,15 @@ export const metadata: Metadata = {
   title: "Car Cockpit — Realistic Interior Simulator",
   description:
     "Interactive Porsche 911 (992) interior simulator with correct specs, flat-6 engine audio, and fully interactive cockpit controls.",
+  metadataBase: new URL("https://car-cockpit.vercel.app"),
+  openGraph: {
+    title: "Car Cockpit — Porsche 911 (992) Simulator",
+    description:
+      "Sit in a 992 Carrera cockpit. Start the flat-6, rev the engine, and interact with PDK, PASM, and PCM.",
+    url: "https://car-cockpit.vercel.app",
+    siteName: "Car Cockpit",
+    type: "website",
+  },
 };
 
 export default function RootLayout({

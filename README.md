@@ -2,6 +2,8 @@
 
 Browser-based realistic car interior simulator. First car: **Porsche 911 Carrera (992.2)** with correct specs, synthesized flat-6 engine audio, and interactive cockpit controls.
 
+**Live:** [car-cockpit.vercel.app](https://car-cockpit.vercel.app) · **Repo:** [github.com/ikan-tech1/car-cockpit](https://github.com/ikan-tech1/car-cockpit)
+
 ## Quick start
 
 ```bash
