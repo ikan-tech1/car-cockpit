@@ -1,0 +1,3 @@
+# Placeholder for optional recorded audio layers.
+# The 992 Carrera uses synthesized Web Audio by default (manifest.audio.synthesized: true).
+# Drop crank.wav, idle.wav, load_low.wav, load_high.wav, overrun.wav here when adding sample-based audio.

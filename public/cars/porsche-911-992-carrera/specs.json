@@ -1,0 +1,27 @@
+{
+  "make": "Porsche",
+  "model": "911 Carrera",
+  "generation": "992.2",
+  "trim": "Carrera Coupe",
+  "year": 2025,
+  "engine": {
+    "layout": "rear",
+    "type": "flat-6 twin-turbo",
+    "displacementL": 3.0,
+    "powerHp": 388,
+    "powerRpm": 6500,
+    "torqueLbFt": 331,
+    "torqueRpmRange": [2000, 5000],
+    "redline": 7500,
+    "idleRpm": 900
+  },
+  "transmission": {
+    "type": "PDK",
+    "gears": 8
+  },
+  "displays": {
+    "clusterInches": 12.6,
+    "pcmInches": 10.9
+  },
+  "source": "Porsche 992.2 911 Carrera Technical Specifications (newsroom.porsche.com)"
+}

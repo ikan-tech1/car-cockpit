@@ -1,0 +1,61 @@
+{
+  "ignition_button": {
+    "type": "momentary",
+    "label": "Engine Start/Stop",
+    "requires": ["foot_brake"],
+    "action": "ignition.toggle"
+  },
+  "foot_brake": {
+    "type": "hold",
+    "label": "Foot Brake",
+    "action": "brake.set"
+  },
+  "throttle_pedal": {
+    "type": "hold",
+    "label": "Accelerator",
+    "action": "throttle.set"
+  },
+  "pdk_selector": {
+    "type": "rotary",
+    "label": "PDK Selector",
+    "states": ["P", "R", "N", "D"],
+    "action": "transmission.setGear"
+  },
+  "sport_plus": {
+    "type": "toggle",
+    "label": "Sport Plus",
+    "action": "driveMode.setSportPlus"
+  },
+  "pasm_button": {
+    "type": "cycle",
+    "label": "PASM",
+    "states": ["Normal", "Sport", "Sport Plus"],
+    "action": "pasm.cycle"
+  },
+  "stalk_indicator_left": {
+    "type": "momentary",
+    "label": "Left Indicator",
+    "action": "indicators.toggleLeft"
+  },
+  "stalk_indicator_right": {
+    "type": "momentary",
+    "label": "Right Indicator",
+    "action": "indicators.toggleRight"
+  },
+  "stalk_wiper": {
+    "type": "cycle",
+    "label": "Wipers",
+    "states": ["Off", "Auto", "Low", "High"],
+    "action": "wipers.cycle"
+  },
+  "hvac_temp_l": {
+    "type": "cycle",
+    "label": "Driver Temp",
+    "action": "hvac.cycleTempDriver"
+  },
+  "hvac_fan": {
+    "type": "cycle",
+    "label": "Fan Speed",
+    "action": "hvac.cycleFan"
+  }
+}
